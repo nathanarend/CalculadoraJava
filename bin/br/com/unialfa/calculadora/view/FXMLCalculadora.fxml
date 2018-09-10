@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane blendMode="DARKEN" maxHeight="420.0" maxWidth="325.0" minHeight="420.0" minWidth="325.0" prefHeight="420.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.unialfa.calculadora.controller.CalculadoraController">
+   <children>
+      <JFXButton fx:id="btnUm" ellipsisString="" layoutX="15.0" layoutY="287.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="1" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <effect>
+            <ColorInput />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnDois" layoutX="92.0" layoutY="287.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="2" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnTres" layoutX="168.0" layoutY="287.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="3" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnQuatro" layoutX="15.0" layoutY="229.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="4" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnCinco" layoutX="92.0" layoutY="229.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="5" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnSeis" layoutX="168.0" layoutY="229.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="6" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ffffff36" />
+                  <Stop color="WHITE" offset="0.007662835249042145" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnSete" layoutX="15.0" layoutY="169.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="7" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnOito" layoutX="92.0" layoutY="167.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="8" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnZero" layoutX="15.0" layoutY="348.0" minHeight="31.0" minWidth="50.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="0" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnNove" layoutX="168.0" layoutY="167.0" minHeight="31.0" minWidth="63.0" onAction="#PressValues" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="9" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.007662835249042145" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnMais" layoutX="244.0" layoutY="229.0" minHeight="31.0" minWidth="63.0" onAction="#ButtonSum" prefHeight="107.0" prefWidth="63.0" style="-fx-background-color: black;" text="+" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnMenos" layoutX="244.0" layoutY="167.0" minHeight="31.0" minWidth="63.0" onAction="#ButtonMinus" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="-" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="0.9961685823754789" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnDivide" layoutX="244.0" layoutY="104.0" minHeight="31.0" minWidth="63.0" onAction="#ButtonDivi" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="/" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="0.007662835249042145" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnVezes" layoutX="168.0" layoutY="104.0" minHeight="31.0" minWidth="63.0" onAction="#ButtonMulti" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="*" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <JFXButton fx:id="btnIgual" layoutX="165.0" layoutY="348.0" minHeight="31.0" minWidth="63.0" onAction="#ButtonEquals" prefHeight="50.0" prefWidth="142.0" style="-fx-background-color: black;" text="=" textAlignment="CENTER">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ffffff36" />
+                  <Stop color="WHITE" offset="0.022988505747126436" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></JFXButton>
+      <Label fx:id="lblScreen" alignment="CENTER_RIGHT" layoutX="3.0" layoutY="13.0" prefHeight="50.0" prefWidth="310.0" textAlignment="RIGHT" />
+      <JFXButton fx:id="btnLimpa" layoutX="15.0" layoutY="104.0" onAction="#ButtonClear" prefHeight="50.0" prefWidth="142.0" style="-fx-background-color: black;" text="C" textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="13.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ffffff36" />
+                  <Stop color="WHITE" offset="0.026819923371647496" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill></JFXButton>
+      <Separator layoutX="-1.0" layoutY="13.0" prefHeight="3.0" prefWidth="324.0" />
+      <Separator layoutX="1.0" layoutY="58.0" prefHeight="11.0" prefWidth="324.0" />
+      <JFXButton fx:id="btnDot" layoutX="92.0" layoutY="348.0" minHeight="31.0" minWidth="50.0" onAction="#ButtonDot" prefHeight="50.0" prefWidth="63.0" style="-fx-background-color: black;" text="." textFill="WHITE">
+         <font>
+            <Font name="Likhan" size="18.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#ffffff36" offset="0.9961685823754789" />
+                  <Stop color="#ffffff36" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
